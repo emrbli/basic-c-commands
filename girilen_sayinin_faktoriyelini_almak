@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+
+
+//Girilen bir sayının faktöriyelini alan program
+main(){
+	int sayi =0;
+	int sonuc=1;
+	
+	
+	printf("Bir sayi giriniz : \n");
+	scanf("%d",&sayi);
+	for(int i=sayi ;i>=1 ;i--)
+		sonuc = sonuc *i ;//sonuc*=i
+	
+	
+	printf("%d ! =  %d ",sayi,sonuc);
+	getch();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
